@@ -1,0 +1,255 @@
+%-------------------------
+% Resume in Latex
+% Author : Amy Schlesener
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+  \usepackage{latexsym}
+  \usepackage[empty]{fullpage}
+  \usepackage{titlesec}
+  \usepackage{marvosym}
+  \usepackage[usenames,dvipsnames]{color}
+  \usepackage{verbatim}
+  \usepackage{enumitem}
+  \usepackage[hidelinks]{hyperref}
+  \usepackage{fancyhdr}
+  \usepackage[default]{lato}
+  \usepackage[T1]{fontenc}
+  \usepackage{multicol}
+  \usepackage{geometry}
+  
+  \geometry{paper=letterpaper, top=15mm, left=18mm, right=18mm, bottom=20mm}
+  
+  % set header text and sizing
+  \fancyhf{}
+  \fancyhead[L]{Amy Schlesener}\fancyhead[C]{amyschlesener.com}\fancyhead[R]{Page Two}
+  \pagestyle{fancy}
+  \thispagestyle{empty}
+  
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  
+  \urlstyle{same}
+  
+  \raggedbottom
+  \raggedright
+  \setlength{\tabcolsep}{0in}
+  
+  % Sections formatting
+  \titleformat{\section}{
+  \centering
+    \vspace{-4pt}\large
+  }{}{0em}\textbf{}
+  
+  
+  %-------------------------
+  % Custom commands
+  \newcommand{\resumeItem}[1]{
+    \item{
+     {#1}
+    }
+  }
+  
+  % Subheading with one title
+  \newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item[] % bullet points are escaped using [] after item
+      \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} #2 & \textbf{#3} \\
+        \textbf{#4} \\
+      \end{tabular*}\vspace{-5pt}
+  }
+  
+  % This subheading allows for two titles
+  \newcommand{\resumeSubheadingTwo}[7]{
+    \vspace{-1pt}\item[]
+      \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} #2 & \textbf{#3} \\
+        \textbf{#4} #5 \\
+        \textbf{#6} #7 \\
+      \end{tabular*}\vspace{-5pt}
+  }
+  
+  % Education subheading
+  \newcommand{\resumeEducationSubheading}[2]{
+    \vspace{-1pt}\item[]
+      \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        #2 \\
+      \end{tabular*}
+  }
+  
+  \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+  
+  \renewcommand{\labelitemii}{$\bullet$}
+  
+  \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt]}
+  \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+  \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
+  \newcommand{\resumeItemListEnd}{\end{itemize}}
+  
+  %-------------------------------------------
+  %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+  
+  \begin{document}
+  
+  %----------HEADING-----------------
+  
+  % Centered heading with name, location, and contact info
+  \begin{center}
+   \textbf{\Large AMY SCHLESENER} \\
+   Kirkland, WA 98033 \\
+    \href{https://www.linkedin.com/in/amyschlesener/}{linkedin.com/in/amyschlesener} \\
+     \href{mailto:amy@amyschlesener.com}{amy@amyschlesener.com} 
+  \end{center}\vspace{-11pt}
+  
+  % Space for phone number and website link below header
+  \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {(206) 659-1549} & {\href{https://www.amyschlesener.com}{amyschlesener.com}}
+  \end{tabular*}\vspace{-8pt}
+  
+  % HR divider
+  \rule{\textwidth}{1pt}
+  
+  %--------SUMMARY------------
+  \section{SENIOR SOFTWARE ENGINEER}
+      \resumeSubHeadingListStart
+          \item[]{
+          Accomplished software engineer skilled at rapidly delivering high-quality code. Passionate about problem-solving, building secure software, and learning new technologies. Excellent communication skills with a solid background in technical leadership and mentoring.}
+      \resumeSubHeadingListEnd
+      
+      % Bulleted multi-column list of skills
+      \begin{multicols}{3}
+          \begin{itemize}[leftmargin=10pt]
+              \item Software Development \vspace{-8pt}
+              \item Cloud Computing 
+              \item Web Security \vspace{-8pt}
+              \item API Design  
+              \item Troubleshooting \vspace{-8pt}
+              \item Automated Testing
+          \end{itemize}
+      \end{multicols}
+  %-------------------------------------------
+    
+  %--------PROGRAMMING SKILLS------------
+  \section{TECHNICAL PROFICIENCIES}
+    \resumeSubHeadingListStart
+      \item[]
+        \textbf{Languages}{: Go, Python, C\#, Java, SQL} \\
+        \textbf{Technologies}{: AWS, Git, Docker, REST and GRPC microservices }
+    \resumeSubHeadingListEnd
+  %-------------------------------------------
+  
+  %-----------EXPERIENCE-----------------
+  \section{EXPERIENCE}
+    \resumeSubHeadingListStart
+  
+      \resumeSubheading
+        {CAPITAL ONE,} {Seattle, WA}{June 2018 - Present}
+        {Principal Software Engineer}
+        \resumeItemListStart
+          \resumeItem
+            {Owned orchestration layer service (Golang, GRPC) of new financial product; collaborated with multiple teams, including mobile, design, and backend, to add new features to service, resulting in successful release of product to 160k beta customers}
+          \resumeItem
+            {Built a large-scale distributed system in AWS to run data science models in production (Luigi, Dask, various AWS services) as part of the data engineering team}
+          \resumeItem
+            {Delivered Kafka producer for streaming and transforming data from S3 in Python}
+          \resumeItem
+            {Taught secure coding classes to engineers, focusing on OWASP vulnerabilities, resulting in 22 other Capital One associates obtaining their internal security certification}
+        \resumeItemListEnd
+  
+      \resumeSubheading
+      {EXPERTVOICE,}{Kirkland, WA}{November 2016 - May 2018}
+      {Software Engineer III}
+        \resumeItemListStart
+          \resumeItem
+            {Increased performance of an autocomplete search by storing large data in Elasticsearch and populating with an Azkaban job, resulting in an 80 times faster search response}
+          \resumeItem
+            {Quickly ramped up on Go to build one of the first Go microservices used in production at the company, training teammates and evangelizing the language to colleagues}
+           \resumeItem
+            {Added features to services and websites across the full stack, including database (MySQL), API (Go, Java, Ruby on Rails), and web apps (JSP, JavaScript, Backbone.js, CSS/SCSS)}
+        \resumeItemListEnd
+        
+      \resumeSubheading
+      {BLUETOOTH SIG,}{Kirkland, WA}{May 2015 - November 2016}
+        {Software Developer III}
+        \resumeItemListStart
+          \resumeItem
+            {Served as lead developer for company ticketing system; designed and implemented architecture, code, and deployment strategy}
+          \resumeItem
+            {Built an internationalized customer registration web application in AngularJS with Typescript}
+          \resumeItem
+            {Wrote a web service in C\#, built on ASP.NET Core and Entity Framework with SQL Server, to support the registration web application and integrate with other services}
+          \resumeItem
+            {Received multiple company-wide employee recognition awards for being vital to the success of projects}          
+        \resumeItemListEnd
+        
+  % put a break in page, so job position doesn't wrap pages      
+  \resumeSubHeadingListEnd
+  \newpage
+  % properly position header for second page
+  \setlength{\headsep}{0.2in}
+  \setlength{\headheight}{14pt} 
+  
+  \resumeSubHeadingListStart
+      \resumeSubheadingTwo
+      {LOGOS RESEARCH SYSTEMS,}{Bellingham, WA}{June 2013 - August 2014}
+      {Software Developer}{(August 2013 - August 2014)}
+      {Software Developer Intern} {(June 2013 - August 2013)}
+        \resumeItemListStart
+          \resumeItem
+            {Designed and implemented a system in C\# and JavaScript that drastically reduced hacking attempts on customers' website accounts by using a proof-of-work protocol on login}
+          \resumeItem
+            {Analyzed company website for security vulnerabilities, using tools such as BurpSuite, and remediated them; configured network security through F5 BIG-IP}
+          \resumeItem
+            {Added various backend features to customer-facing .NET web applications and APIs}     
+        \resumeItemListEnd
+        
+      \resumeSubheading
+          {WESTERN WASHINGTON UNIVERSITY,}{Bellingham, WA}{January 2013 - March 2013}
+            {Computer Science Teaching Assistant}
+        \resumeItemListStart
+          \resumeItem
+            {Led two labs weekly for Programming Fundamentals in C++ (CSCI 140) and Computers and Applications (CSCI 101); provided tutoring, grading, and feedback for approximately 60 students}
+  
+          \resumeItem
+            {Taught C++, Linux, HTML, JavaScript, Visual Studio, algorithm design, and various computer science and programming concepts}
+        \resumeItemListEnd
+  
+    \resumeSubHeadingListEnd
+  %-------------------------------------------
+  
+  %-----------EDUCATION-----------------
+  \section{EDUCATION}
+    \resumeSubHeadingListStart
+      \resumeEducationSubheading
+        {Bachelor of Science, Computer Science}
+        {Western Washington University, Bellingham, WA}
+    \resumeSubHeadingListEnd
+  %-------------------------------------------
+  
+  %-----------CERTIFICATIONS-----------------
+  \section{CERTIFICATION}
+    \resumeSubHeadingListStart
+      \resumeEducationSubheading
+        {Certificate in Ethical Hacking - Expected September 2019}
+        {\textit{University of Washington, Professional \& Continuing Education}} \\
+         A three-course program covering topics such as penetration testing, network/web/application security, and reverse engineering, culminating in a Capture the Flag exercise
+      \resumeEducationSubheading
+          {AWS Certified Solutions Architect (Associate) - Expected July 2019}
+  
+    \resumeSubHeadingListEnd
+  %-------------------------------------------
+  
+  %-----------PUBLICATIONS-----------------
+  \section{PUBLICATIONS}
+    \resumeSubHeadingListStart
+    \item[]
+      Co-Author, \textbf{"Approaches for Preventing Honeypot Detection and Compromise"}, IEEE Global Information Infrastructure and Networking Symposium (GIIS), October 2018
+  
+    \resumeSubHeadingListEnd
+  %-------------------------------------------
+  
+  \end{document}
