@@ -1,12 +1,20 @@
 \documentclass{article}
     % HEADER
     % Packages to use
+
+    \usepackage{latexsym}
+    \usepackage[empty]{fullpage}
+    \usepackage{titlesec}
+    \usepackage{marvosym}
+    \usepackage[usenames,dvipsnames]{color}
+    \usepackage{verbatim}
+    \usepackage{enumitem}
     \usepackage[hidelinks]{hyperref}
+    \usepackage{fancyhdr}
+    \usepackage[default]{lato}
+    \usepackage[T1]{fontenc}
     \usepackage{multicol}
     \usepackage{geometry}
-    \usepackage{titlesec}
-    \usepackage{fancyhdr}
-
     % Set paper and margin size
     \geometry{paper=letterpaper, top=15mm, left=18mm, right=18mm, bottom=20mm}
 
@@ -30,6 +38,26 @@
         \centering \vspace{-4pt} \large
     } {} {0em}\textbf{}
 
+    % ---------- Custom commands ----------
+    \newcommand{\resumeItem}[1]{
+        \item{
+            {#1}
+        }
+    }
+    % Subheading with one title
+    \newcommand{\resumeSubheading}[4]{
+        \vspace{-1pt}\item[]
+            \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+                \textbf{#1} #2 & \textbf{#3} \\
+                \textbf{#4}\\
+            \end{tabular*}\vspace{-5pt}
+    }
+    \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+    \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
+    \newcommand{\resumeItemListEnd}{\end{itemize}}
+
+
 % ---------- CV Starts Here ----------
 \begin{document}
     % ---------- HEADING ----------
@@ -49,5 +77,50 @@
 
     % ---------- Summary ----------
     \section{Professional Pianist}
+        \resumeSubHeadingListStart
+            \item [] Hi
+                Accomplished and versatile pianist skilled at
+                collaboration, interpretation, improvisation, and
+                composition. Passionate and thoughtful artist, interested
+                in music in all of its forms. Excellent communication
+                skills with a solid background in performance, theory,
+                teaching, and technology.}
+        \resumeSubHeadingListEnd
+        % Bulleted multi-column list of skills
+        \begin{multicols}{3}
+            \begin{itemize}[leftmargin=10pt]
+                \item Classical Interpretation
+                \item Collaborative Piano
+                \item Musical Theater
+                \item Contemporary Commercial Music
+                \item Jazz Improvisation
+                \item Composition
+                \item Songwriting
+                \item Arranging
+                \item Pedagogy
+            \end{itemize}
+        \end{multicols}
+
+    % ---------- Technical Proficiencies ----------
+    \section{TECHNICAL PROFICIENCIES}
+        \resumeSubHeadingListStart
+            \item[]
+                \textbf{Composition Software}{: Sibelius, Finale, Musescore, Lilypond}
+            \item[]
+                \textbf{Audio Software}{: Pro-Tools, Logic, Reaper, Ableton}
+            \item[]
+                \textbf{Programming/Scripting Languages}{: C, Python, Bash, Javascript, Lua}
+            \item[]
+                \textbf{Technologies}{: Linux, Git, Github, HTML/CSS}
+        \resumeSubHeadingListEnd
+
+    % ---------- Experience ----------
+    \section{EXPERIENCE}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {COLORADO MESA UNIVERSITY,} {Grand Junction, CO}{August 2022 - May 2025}
+                {Adjunct Faculty, Resident Accompanist}
+
+
 
 \end{document}
