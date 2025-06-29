@@ -1,20 +1,53 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass{article}
+    % HEADER
+    % Packages to use
     \usepackage[hidelinks]{hyperref}
     \usepackage{multicol}
+    \usepackage{geometry}
+    \usepackage{titlesec}
+    \usepackage{fancyhdr}
 
+    % Set paper and margin size
+    \geometry{paper=letterpaper, top=15mm, left=18mm, right=18mm, bottom=20mm}
+
+    % Set header text and sizing
+    \fancyhf{}
+    \fancyhead[L]{C. Maxwell Reilly} \fancyhead[C]{cmaxreilly.github.io} \fancyhead[R]{Page Two}
+    \pagestyle{fancy}
+    \thispagestyle{empty}
+
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+
+    \urlstyle{same}
+
+    \raggedbottom
+    % I don't see this section above mattering very much, since my goal is a
+    % one page resume and these changes only apply to the header on page 2...
+
+    % Sections formatting
+    \titleformat{\section}{
+        \centering \vspace{-4pt} \large
+    } {} {0em}\textbf{}
+
+% ---------- CV Starts Here ----------
 \begin{document}
-
     % ---------- HEADING ----------
-
     % Centered heading with name, location, and contact info
     \begin{center}
-        \textbf{\Large C. Maxwell Reilly} \\ Albuquerque NM (ENTER ZIP HERE)
+        \textbf{\Large C. Maxwell Reilly} \\ Albuquerque NM 87104
         \href{mailto:c.maxwell.reilly@gmail.com}{c.maxwell.reilly@gmail.com}
     \end{center}\vspace{-11pt}
-
     % Space for phone number and website link below header
-    \begin{tabular*}
-        {(970) 620-0975} & {\href{https://cmaxreilly.github.io}{cmaxreilly.github.io}}
-    \end{tabular*}\vspace{-8pt}
+    \begin{center}
+        \begin{tabular}{c c}
+            (970) 620-0975 & \href{https://cmaxreilly.github.io}{cmaxreilly.github.io} \\
+        \end{tabular}\vspace{-8pt}
+    \end{center}
+    % HR divider
+    \rule{\textwidth}{1pt}
+
+    % ---------- Summary ----------
+    \section{Professional Pianist}
 
 \end{document}
