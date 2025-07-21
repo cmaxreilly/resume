@@ -56,6 +56,13 @@
     \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
     \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
     \newcommand{\resumeItemListEnd}{\end{itemize}}
+    \newcommand{\resumeEducationSubheading}[2]{
+        \vspace{-1pt}\item[]
+            \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+                \textbf{#1} \\
+                {#2} \\
+            \end{tabular*}
+    }
 
 
 % ---------- CV Starts Here ----------
@@ -76,21 +83,104 @@
     \rule{\textwidth}{1pt}
 
     % ---------- Summary ----------
-    \section{Professional Pianist}
+    \section{PROFESSIONAL PIANIST}
         \resumeSubHeadingListStart
-            \item [] Hi
+            \item []
                 Accomplished and versatile pianist skilled at
                 collaboration, interpretation, improvisation, and
                 composition. Passionate and thoughtful artist, interested
                 in music in all of its forms. Excellent communication
                 skills with a solid background in performance, theory,
-                teaching, and technology.}
+                teaching, and technology.
         \resumeSubHeadingListEnd
+
+    % ---------- Education ----------
+    \section{EDUCATION}
+        \resumeSubHeadingListStart
+            \resumeEducationSubheading
+                {Bachelor of Music, Keyboard Performance}
+                {Colorado Mesa University, Grand Junction, CO}
+            \resumeEducationSubheading
+                {Work toward Bachelor of Music, Piano Performance}
+                {University of Denver, Denver, CO}
+        \resumeSubHeadingListEnd
+
+    % ---------- Experience ----------
+    \section{EXPERIENCE}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+            {COLORADO MESA UNIVERSITY,} {Grand Junction, CO}{August 2022 - May 2025}
+            {Adjunct Faculty, Resident Accompanist}
+                \resumeItemListStart
+                    \resumeItem
+                        {Accompanied and music-directed musicals and classes for theater department.}
+                    \resumeItem
+                        {Accompanied classes, lessons, and several student recitals a semester for the
+                        music department.}
+                    \resumeItem
+                        {Taught private piano lessons and worked as a vocal coach out
+                        of office on campus.}
+                    \resumeItem
+                        {Collaborated with music and theater faculty on performances and policy.}
+                \resumeItemListEnd
+
+            \resumeSubheading
+            {GRAND JUNCTION HIGH SCHOOL,}{Grand Junction, CO} {August 2018 - May 2025}
+            {Choir Accompanist}
+                \resumeItemListStart
+                    \resumeItem
+                        {Accompanied for classes, concerts and recitals for Grand Junction High
+                        school.}
+                    \resumeItem
+                        {Created improvised accompaniments in collaboration with teachers and
+                        students, in styles including jazz, baroque, classical, and contemporary
+                        commercial.}
+                    \resumeItem
+                        {Played piano for musicals for the first three years there, and wrote the
+                        underscoring to the drama department's production of \textit{Treasure
+                        Island} by Ken Ludwig.}
+                \resumeItemListEnd
+
+            \resumeSubheading
+            {FIRST PRESBYTERIAN CHURCH,}{Grand Junction, CO}{August 2023 - June 2025}
+            {Pianist, Organist}
+                \resumeItemListStart
+                    \resumeItem
+                        {Principally accompanied for the choir on organ and piano in weekly
+                        rehearsal, service, and concerts under the baton of David Sherman.}
+                    \resumeItem
+                        {Served as substitute organist and pianist for hymn playing during service}
+                    \resumeItem
+                        {Played keyboards and planned worship with the commercial band for special
+                        services}
+                \resumeItemListEnd
+
+            \resumeSubheading
+            {FREELANCE MUSICIAN,}{Grand Junction, CO}{August 2017 - Present}
+            {Recitalist, Keyboardist, Composer, Educator}
+                \resumeItemListStart
+                    \resumeItem
+                        {Played classical recitals from Grand Junction to Denver}
+                    \resumeItem
+                        {Recording artist and/or producer on dozens of publicly available songs by
+                        western slope artists}
+                    \resumeItem
+                        {Scored original music and arrangements for recitals and theater productions.}
+                    \resumeItem
+                        {Taught private lessons and served as a clinician to University and private studios.}
+                \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    % ---------- Skills ----------
+    \newpage
+    \vspace*{10pt}
+    \section{SKILLS}
         % Bulleted multi-column list of skills
         \begin{multicols}{3}
             \begin{itemize}[leftmargin=10pt]
                 \item Classical Interpretation
                 \item Collaborative Piano
+                \item Vocal Coaching
                 \item Musical Theater
                 \item Contemporary Commercial Music
                 \item Jazz Improvisation
@@ -98,6 +188,9 @@
                 \item Songwriting
                 \item Arranging
                 \item Pedagogy
+                \item Acting
+                \item Computer Programming
+                \item Writing
             \end{itemize}
         \end{multicols}
 
@@ -113,14 +206,6 @@
             \item[]
                 \textbf{Technologies}{: Linux, Git, Github, HTML/CSS}
         \resumeSubHeadingListEnd
-
-    % ---------- Experience ----------
-    \section{EXPERIENCE}
-        \resumeSubHeadingListStart
-            \resumeSubheading
-                {COLORADO MESA UNIVERSITY,} {Grand Junction, CO}{August 2022 - May 2025}
-                {Adjunct Faculty, Resident Accompanist}
-
 
 
 \end{document}
