@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  21 JUL 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  21 JUL 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume/resume.tex
-(./resume/resume.tex
+**cv/cv.tex
+(./cv/cv.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -372,8 +372,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box99
 )
-(resume/resume.aux)
-\openout1 = `resume.aux'.
+(cv/cv.aux)
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
@@ -393,8 +393,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
 \scratchdimen=\dimen168
@@ -409,9 +408,9 @@ LaTeX Font Info:    ... okay on input line 69.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 69.
- (resume/resume.out) (resume/resume.out)
+ (cv/cv.out) (cv/cv.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `cv.out'.
 
 \c@mv@tabular=\count296
 \c@mv@boldtabular=\count297
@@ -467,56 +466,40 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 86.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 86.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 141.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/lato/a_cl4kdn.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 181.
- (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
+ine 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 181.
+(Font)              scaled to size 10.0pt on input line 99.
+ [1
 
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
-(resume/resume.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/lato/a_rt66h3.enc}] (cv/cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 74AD54A5FEB11A3D279991E4F01BE749;720.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: E752E67E0789EBC66F0825C44013BD88;579.
  ) 
 Here is how much of TeX's memory you used:
- 10849 strings out of 474222
- 168060 string characters out of 5748734
- 1945975 words of memory out of 5000000
- 32963 multiletter control sequences out of 15000+600000
- 692802 words of font info for 52 fonts, out of 8000000 for 9000
+ 10841 strings out of 474222
+ 167755 string characters out of 5748734
+ 1931975 words of memory out of 5000000
+ 32959 multiletter control sequences out of 15000+600000
+ 669924 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,264b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,256b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume/resume.pdf (2 pages, 76448 bytes).
+share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on cv/cv.pdf (1 page, 55666 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
