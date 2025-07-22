@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  21 JUL 2025 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  21 JUL 2025 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv/cv.tex
-(./cv/cv.tex
+**src/cv.tex
+(./src/cv.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -475,7 +475,7 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 104.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 167.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
@@ -517,17 +517,17 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 70300035EFC64C25EE5B0AD4447C674B;1541.
  ) 
 Here is how much of TeX's memory you used:
- 10873 strings out of 474222
- 168265 string characters out of 5748734
- 1948975 words of memory out of 5000000
+ 10874 strings out of 474222
+ 168271 string characters out of 5748734
+ 1949975 words of memory out of 5000000
  32976 multiletter control sequences out of 15000+600000
  692802 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,256b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,257b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on cv/cv.pdf (3 pages, 95864 bytes).
+Output written on cv/cv.pdf (3 pages, 95941 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
