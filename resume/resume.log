@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  23 JUL 2025 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  24 JUL 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,12 +474,12 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/lato/a_cl4kdn.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 188.
+ine 187.
  (/usr/share/texlive/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 188.
+(Font)              scaled to size 10.0pt on input line 187.
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -513,7 +513,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume/resume.pdf (2 pages, 83989 bytes).
+Output written on resume/resume.pdf (2 pages, 83474 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
