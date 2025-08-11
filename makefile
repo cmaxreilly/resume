@@ -5,3 +5,6 @@ output/resume.pdf: src/resume.tex
 
 output/cv.pdf: src/cv.tex
 	pdflatex -output-directory=cv src/cv.tex && mv cv/cv.pdf ./output/cv.pdf
+
+open: output/cv.pdf output/resume.pdf
+	firefox output/cv.pdf output/resume.pdf
