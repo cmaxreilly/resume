@@ -56,11 +56,12 @@
     \newcommand{\cvSubHeadingListEnd}{\end{itemize}}
     \newcommand{\cvItemListStart}{\begin{itemize}[leftmargin=10pt]}
     \newcommand{\cvItemListEnd}{\end{itemize}}
-    \newcommand{\cvEducationSubheading}[2]{
+    \newcommand{\cvEducationSubheading}[3]{
         \vspace{-1pt}\item[]
             \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
-                \textbf{#1} \\
-                {#2} \\
+                \textbf{#1} \\ % Name of the Degree
+                {#2} % City Name
+                { --- \em #3} \\ % Years attended and notes
             \end{tabular*}
     }
 
@@ -70,7 +71,7 @@
     % ---------- HEADING ----------
     % Centered heading with name, location, and contact info
     \begin{center}
-        \textbf{\Large C. Maxwell Reilly} \\ Albuquerque NM 87104
+        \textbf{\Large C. Maxwell Reilly} \\ Albuquerque NM \hspace{2mm}
         \href{mailto:c.maxwell.reilly@gmail.com}{c.maxwell.reilly@gmail.com}
     \end{center}\vspace{-11pt}
     % Space for phone number and website link below header
@@ -88,20 +89,20 @@
             \cvEducationSubheading
                 {Bachelor of Music, Keyboard Performance}
                 {Colorado Mesa University, Grand Junction, CO}
+                {Final institution. Degree awarded spring of 2022}
             \cvEducationSubheading
-                {Work toward Bachelor of Music, Piano Performance}
+                {Bachelor of Music, Piano Performance}
                 {University of Denver, Denver, CO}
+                {Coursework completed: 2015-2018}
         \cvSubHeadingListEnd
 
     % ---------- Principal Teachers ----------
     \section{PRINCIPAL PIANO TEACHERS}
         \cvItemListStart
             \begin{multicols}{2}
-                \cvItem{Stephanie Shih-Yu Cheng - 2015-2017}
+                \cvItem{Stephanie Shih-Yu Cheng - 2015-2018}
                 \cvItem{Marjorie Zollner - 2019-2020}
-                \cvItem{Gisela Flanigan - 2020-2021, 2023-2025} 
-                \cvItem{Brian Krinke - 2021-2024}
-                \cvItem{Darin Kamstra - 2021-2022}
+                \cvItem{Gisela Flanigan - 2020-2021, 2023-2025}
                 \cvItem{Adrian Herrera-Escobar - 2021-2023}
             \end{multicols}
         \cvItemListEnd
@@ -109,8 +110,10 @@
     % ---------- Masterclasses ----------
     \section{MASTERCLASSES}
         \cvItemListStart
-            \cvItem{Alan Broadbent}
-            \cvItem{Alexandra Nguyen}
+            \begin{multicols}{2}
+                \cvItem{Alan Broadbent}
+                \cvItem{Alexandra Nguyen}
+            \end{multicols}
         \cvItemListEnd
 
     % ---------- Chamber music coaches ----------
@@ -124,6 +127,8 @@
                 \cvItem{Jun Watabe}
                 \cvItem{Roberto Arundale}
                 \cvItem{Timothy Emmons}
+                \cvItem{Caitlin Moore}
+                \cvItem{Sean Flanigan}
             \end{multicols}
         \cvItemListEnd
 
@@ -307,13 +312,16 @@
             \cvItemListEnd
         \subsection{2016}
 
-    \section{SECONDARY INSTRUMENTAL PRIVATE STUDY}
+    \section{OTHER PRIVATE STUDY}
         \cvItemListStart
             \cvItem{Voice: Marcia Kuhlman}
             \cvItem{Voice: Kelly Anderson}
             \cvItem{Organ: Joseph Galema}
             \cvItem{Organ: Dr. John Howard}
             \cvItem{Bass: Timothy Emmons}
+            \cvItem{Improvisation and Composition: Jon Cowherd}
+            \cvItem{Improvisation and Composition: Darin Kamstra}
+            \cvItem{Composition, Ear Training: Brian Krinke}
         \cvItemListEnd
     \section{CHORAL HIGHLIGHTS}
        \cvItemListStart
