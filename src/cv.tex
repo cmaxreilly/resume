@@ -15,8 +15,9 @@
     \usepackage[T1]{fontenc}
     \usepackage{multicol}
     \usepackage{geometry}
-    % Set paper and margin size
+    % Set paper and margin size and page numbering.
     \geometry{paper=letterpaper, top=15mm, left=18mm, right=18mm, bottom=20mm}
+
 
     % Set header text and sizing
 
@@ -29,6 +30,11 @@
     % I don't see this section above mattering very much, since my goal is a
     % one page cv and these changes only apply to the header on page 2...
 
+    % Added page numbers
+    \pagestyle{fancy}
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+
     % Sections formatting
     \titleformat{\section}{
         \centering \vspace{-4pt} \large
@@ -37,6 +43,9 @@
     \titleformat{\subsection}{
         \vspace{-4pt} \large
     } {} {0em}\textbf{}
+
+    % Formatting multicols
+    \setlength{\multicolsep}{0pt}
 
     % ---------- Custom commands ----------
     \newcommand{\cvItem}[1]{
@@ -68,6 +77,8 @@
 
 % ---------- CV Starts Here ----------
 \begin{document}
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
     % ---------- HEADING ----------
     % Centered heading with name, location, and contact info
     \begin{center}
@@ -142,11 +153,10 @@
                     \cvItem
                         {Accompanied and music-directed musicals and classes for theater department.}
                     \cvItem
-                        {Accompanied classes, lessons, and several student recitals a semester for the
-                        music department.}
+                        {Accompanied classes, lessons, and several student recitals per semester for
+                        the music department.}
                     \cvItem
-                        {Taught private piano lessons and worked as a vocal coach out
-                        of office on campus.}
+                        {Taught private piano lessons and worked as a vocal coach.}
                     \cvItem
                         {Collaborated with music and theater faculty on performances and policy.}
                 \cvItemListEnd
@@ -163,85 +173,157 @@
                         students, in styles including jazz, baroque, classical, and contemporary
                         commercial.}
                     \cvItem
-                        {Played piano for musicals for the first three years there, and wrote the
-                        underscoring to the drama department's production of \textit{Treasure
-                        Island} by Ken Ludwig.}
+                        {Played piano for musicals, and wrote the underscoring to the drama
+                        department's production of \textit{Treasure Island} by Ken Ludwig.}
+                    \cvItem
+                        {Served as a substitute teacher for choir classes.}
+                    \cvItem
+                        {Accompanied solos for yearly solo and ensemble festival, and other district
+                        51 related solo performances.}
                 \cvItemListEnd
-
+            \pagebreak
             \cvSubheading
             {FIRST PRESBYTERIAN CHURCH,}{Grand Junction, CO}{August 2023 - June 2025}
             {Pianist, Organist}
                 \cvItemListStart
                     \cvItem
-                        {Principally accompanied for the choir on organ and piano in weekly
-                        rehearsal, service, and concerts under the baton of David Sherman.}
+                        {Accompanied for the choir on organ and piano in weekly rehearsal, service,
+                        and concerts under the baton of Dr. David Sherman.}
                     \cvItem
-                        {Served as substitute organist and pianist for hymn playing during service}
+                        {Served as substitute organist and pianist during services.}
                     \cvItem
                         {Played keyboards and planned worship with the commercial band for special
-                        services}
+                        services.}
+                \cvItemListEnd
+            \cvSubheading
+            {VALLEY SYMPHONY ASSOCIATION CHORUS,}{Delta and Montrose, CO}{November 2022 - April
+            2023}{Choral Accompanist}
+                \cvItemListStart
+                    \cvItem
+                        {Accompanied for choral rehearsals in Delta, Colorado.}
+                    \cvItem
+                        {Accompanied and improvised accompaniment for choral and orchestral concerts
+                        in Montrose, Colorado.}
+                    \cvItem
+                        {Prepared digital accompaniments for rehearsals and concerts.}
+                \cvItemListEnd
+            \cvSubheading
+            {FIRST CONGREGATIONAL UNITED CHURCH OF CHRIST,}{Grand Junction, CO}{February 2020 -
+            August 2023}{Pianist, Organist}
+                \cvItemListStart
+                    \cvItem
+                        {Accompanied all congregational song, choral music, and soloists on piano
+                        and organ.}
+                    \cvItem
+                        {Prepared, composed, or improvised solo preludes, postludes, and interludes
+                        for services and special concerts.}
+                    \cvItem
+                        {Digitally recorded and edited video and audio for service music during
+                        COVID-19 pandemic lockdown.}
+                \cvItemListEnd
+            \cvSubheading
+            {DISTRICT 51,}{Grand Junction, CO}{August 2018 - May 2025}{Choral Accompanist, Composer,
+            Consultant}
+                \cvItemListStart
+                    \cvItem
+                        {Accompanied choirs at West Middle School.}
+                    \cvItem
+                        {Accompanied choirs for Juniper Ridge Waldorf School.}
+                    \cvItem
+                        {Served as a sound reinforcement consultant for Colorado West Music
+                        Festival.}
+                    \cvItem
+                        {Served as a music substitute for various schools.}
+                    \cvItem
+                        {Recorded digital accompaniments and tracks for various performances and
+                        rehearsals.}
+                \cvItemListEnd
+            \cvSubheading
+            {WESTMINSTER CHRISTIAN CHURCH,}{Westminster, CO}{September 2015 - March 2018}{Pianist,
+            Organist}
+                \cvItemListStart
+                    \cvItem
+                        {Accompanied all congregational song, choral music, and soloists on piano
+                        and organ.}
+                    \cvItem
+                        {Prepared, composed, or improvised solo preludes, postludes, and interludes
+                        for services and special concerts.}
+                    \cvItem
+                        {Assisted in talent aquisition of section leaders.}
+                \cvItemListEnd
+            {DENVER WALDORF SCHOOL,}{Denver, CO}{September 2017 - March 2018}{Choral Accompanist}
+                \cvItemListStart
+                    \cvItem
+                        {Accompanied choral rehearsals and performances.}
+                    \cvItem
+                        {Accompanied for and coached students on solos performances.}
                 \cvItemListEnd
         \cvSubHeadingListEnd
     \section{PERFORMANCE HIGHLIGHTS}
         \subsection{2025}
             \cvItemListStart
-                \cvItem{Accompanied Jeremy Franklin's Farewell concert after his 18 year career as
-                the head of the CMU musical theater department}
+                \cvItem{Accompanied Jeremy Franklin's farewell concert after his 18 year career as
+                the head of the CMU musical theater department.}
                 \cvItem{{\em Little Noon Music} performed a solo recital of masterworks, originals,
-                and improvisation}
+                and improvisation.}
                 \cvItem{Music director for the Colorado Mesa University Theater Department's
-                production of {\em Ride the Cyclone} in the Asteria Theater}
+                production of {\em Ride the Cyclone} in the Asteria Theater under the direction of
+                Jeremy Franklin.}
                 \cvItem{Recital with international artist Naama Liany at the Pitkin County Library,
                 as a part of their concert series.}
                 \cvItem{{\em Impromptu} composer concert. Played original works and works by
-                composer Julie McCarthy}
+                composer Julie McCarthy.}
                 \cvItem{Clarinet recital with John Petefish at Canvas 35.}
                 \cvItem{Karli Weatherill senior flute recital in Love Recital Hall.}
                 \cvItem{Bonnie Duffy senior voice recital under the coaching of Caitlin Moore.}
-                \cvItem{Accompanied several placing students at the Colorado \& Wyoming NATS at
+                \cvItem{Accompanied several top students at the Colorado \& Wyoming NATS at
                 University of Denver.}
                 \cvItem{Accompanied John Petefish's senior clarinet recital in Love Recital hall
                 under the coaching of Jun Watabe.}
                 \cvItem{Played piano, organ, and harpsichord for the Easter concert with First
                 Presbyterian.}
-                \cvItem{Played jazz piano with Doug Ferony and the Clark Gault jazz band at the
+                \cvItem{Played jazz piano with Doug Ferony and the Clark Gault Dectet at the
                 Mizel Foundation fundraiser in Denver Colorado. Attendees included Colorado
-                Governers Jared Polis and Bill Rittner, as well as hundres of business and political
+                Governers Jared Polis and Bill Rittner, as well as hundreds of business and political
                 dignitaries from Colorado.}
             \cvItemListEnd
         \subsection{2024}
             \cvItemListStart
                 \cvItem{Music director for Geek Parties' production of {\em Cannibal the Musical} at
-                the Avalon Theater in Grand Junction Colorado}
-                \cvItem{Soprano Rainy Stokely-Graves Junior Recital in Love Recital Hall at CMU}
+                the Avalon Theater in Grand Junction Colorado.}
+                \cvItem{Soprano Rainy Stokely-Graves Junior Recital in Love Recital Hall at CMU.}
                 \cvItem{Accompanied Kurt Kowar cello recital under the coaching of Roberto Arundale
-                at the Basalt Regional Library}
+                at the Basalt Regional Library.}
                 \cvItem{Accompanied Nicholas Berry's Senior Cello Recital in Love Recital Hall at
-                CMU}
-                \cvItem{Accompanied Emily Larsen's Senior Cello Recital in Love Recital Hall at CMU}
-                \cvItem{Music director for \& Company's production of {\em Chicago}}
+                CMU.}
+                \cvItem{Accompanied Emily Larsen's Senior Cello Recital in Love Recital Hall at CMU.}
+                \cvItem{Music director for \& Company's production of {\em Chicago}.}
                 \cvItem{Performed the role of Wolfgang Amadeus Mozart in the CMU theater
                 department's production of {\em Amadeus} for the grand opening of the Asteria
                 Theater in Grand Junction, CO under the direction of Mo LaMee. Wrote, improvised, or
-                learned all music performed onstage}
+                learned all music performed onstage, and was featured in several articles in the GJ
+                Sentinal.}
                 \cvItem{Performed and original piece on the CMU Music Faculty Gala in the Asteria
-                Theater}
+                Theater.}
                 \cvItem{Played Piano for the CMU Theater Department's production of {\em
                 Urinetown}.}
                 \cvItem{Transcribed and arranged Scottish and Irish folk songs for Dr. Chris McKim and
                 Dr. Caitlin Moore's faculty recital {\em Celtic Impressions}. Assisted with
                 rehearsals.}
                 \cvItem{Accompanied Scott Betts' recital for {\em Little Noon Music} at First United
-                Methodist Church}
-                \cvItem{{\em Kid Caravan} headlines at Mesa Theater in Grand Junction.}
+                Methodist Church.}
+                \cvItem{Headlined Mesa Theater in Grand Junction Colorado with band {\em Kid
+                Caravan}.}
             \cvItemListEnd
         \subsection{2023}
             \cvItemListStart
+                \cvItem{Headlined Mesa Theater in Grand Junction Colorado with band {\em Kid
+                Caravan}.}
                 \cvItem{Played piano for the CMU Theater Department's production of {\em Floyd
                 Collins} under the direction of Mo LaMee and music direction of Jeremy Franklin.
                 Also served as technical consultant on audio effects.}
                 \cvItem{Wrote the underscoring for Grand Junction High School's production of Ken
-                Ludwig's {\em Treasure Island} with Brad Hirsh}
+                Ludwig's {\em Treasure Island} with Brad Hirsh.}
                 \cvItem{Played piano for the world premier of Scott Betts' musical {\em Eclipse} at
                 the Avalon Theater in Grand Junction CO.}
                 \cvItem{Played piano for High Desert Opera's production of {\em Always Patsy Cline}
@@ -255,35 +337,37 @@
                 \cvItem{Accompanied Valley Symphony Associations concert {\em Pop Stars and
                 Superheroes.}}
                 \cvItem{Accompanied the District 51 Middle School Honor Choir under the direction of
-                Brad Hirsh}
-                \cvItem{Played piano for the Knights Templar Christmas Observance}
-                \cvItem{Personal band {\em Kid Caravan} selected to open for {\em Baby Jake} and
-                {\em Bryce Vine} at the CMU Spring Concert.}
-                \cvItem{{\em Kid Caravan} headlines at Mesa Theater in Grand Junction.}
+                Brad Hirsh.}
+                \cvItem{Played piano for the Knights Templar Christmas Observance.}
+                \cvItem{Personal band {\em Late Night Five} rebranded as {\em Kid Caravan} selected
+                to open for {\em Baby Jake} and {\em Bryce Vine} at the CMU Spring Concert.}
             \cvItemListEnd
         \subsection{2022}
             \cvItemListStart
                 \cvItem{Rehearsal accompanist for CMU's production of {\em Guys and Dolls}.}
                 \cvItem{Accompanied {\em Christmas by Candelight} concert for the Valley Symphony
-                Orchestra Chorus}
+                Orchestra Chorus.}
                 \cvItem{Accompanied the Grand Junction High School Solo Voice Recital.}
                 \cvItem{Performed a solo recital of masterworks, arrangments, and originals for my
                 Senior Recital in Love Recital Hall at CMU.}
-                \cvItem{Performed with Matt Harris at the CMU Jazz concert in Robinson theater}
+                \cvItem{Performed with Jazz Pianist Matt Harris at the CMU Jazz concert in Robinson
+                theater.}
                 \cvItem{Perfomed and original arrangment of {\em Veni, Emmanuel} for the First
                 United Methodist Christmas concert.}
                 \cvItem{Played piano for Grand Junction High School's production of {\em High School
-                Musical}. Used Ableton Live for sample automation, sound design, and some
-                composition.}
+                Musical}. Used Ableton Live for sample automation, sound design, and composition.}
                 \cvItem{Only music student selected to represent the music department in CMU
                 president John Marshall's presentation to the Colorado State Senate Capital
                 Development Committee. Performed a short work with a vocalist from the Theater
                 Department.}
                 \cvItem{Started band {\em Late Night Five} with fellow students, winning a
-                university battle of the bands a few days later}
+                university battle of the bands a few days later.}
+                \cvItem{Performed in drum ensemble {\em Talking Rhythmns} for CMU Prism Concert.}
             \cvItemListEnd
         \subsection{2021}
             \cvItemListStart
+                \cvItem{Peformed a solo stride piano arrangment of {\em All of Me} for the CMU Prism
+                Concert. Was the only student selected to play a solo.}
                 \cvItem{Accompanied Shayna Lindblom's Senior Clarinet Recital in Love Recital Hall
                 at Colorado Mesa University under the coaching of Jun Watabe.}
             \cvItemListEnd
@@ -291,6 +375,8 @@
             \cvItemListStart
                 \cvItem{Played piano for Grand Junction High School's production of {\em Little Shop
                 of Horrors}.}
+                % Something about that gig I did in Texas with Darcy here, if I ever find the name,
+                % lol.
             \cvItemListEnd
         \subsection{2019}
             \cvItemListStart
@@ -300,28 +386,34 @@
         \subsection{2018}
             \cvItemListStart
                 \cvItem{Jazz Piano for Clark Gault Dectet at Grand Junction VA Hospital for
-                Veteren's day}
-                \cvItem{Played piano for Liederabend II for my diction class at DU under the guidance
-                of Matthew Plenk and Hukum Singh Khalsa}
+                Veteran's Day.}
+                \cvItem{Student accompanist for Liederabend II for diction class at DU under the guidance
+                of Matthew Plenk and Hukum Singh Khalsa.}
                 \cvItem{Pianist for D'Evelyn High School's production of {\em Big Fish} in Denver, CO.}
             \cvItemListEnd
         \subsection{2017}
             \cvItemListStart
-                \cvItem{Played piano for Liederabend I for my diction class at DU under the guidance
-                of Matthew Plenk and Hukum Singh Khalsa}
+                \cvItem{Student Accompanist for Liederabend I for diction class at DU under the guidance
+                of Matthew Plenk and Hukum Singh Khalsa.}
             \cvItemListEnd
         \subsection{2016}
+            \cvItemListStart
+                \cvItem{Played piano for the world premiere of Kevin Padworski's {\em The Cloud}.}
+            \cvItemListEnd
+        \newpage
 
     \section{OTHER PRIVATE STUDY}
         \cvItemListStart
-            \cvItem{Voice: Marcia Kuhlman}
-            \cvItem{Voice: Kelly Anderson}
-            \cvItem{Organ: Joseph Galema}
-            \cvItem{Organ: Dr. John Howard}
-            \cvItem{Bass: Timothy Emmons}
-            \cvItem{Improvisation and Composition: Jon Cowherd}
-            \cvItem{Improvisation and Composition: Darin Kamstra}
-            \cvItem{Composition, Ear Training: Brian Krinke}
+            \begin{multicols}{2}
+                \cvItem{Voice: Marcia Kuhlman}
+                \cvItem{Voice: Kelly Anderson}
+                \cvItem{Organ: Dr. Joseph Galema}
+                \cvItem{Organ: Dr. John Howard}
+                \cvItem{Bass: Timothy Emmons}
+                \cvItem{Improvisation and Composition: Jon Cowherd}
+                \cvItem{Improvisation and Composition: Dr. Darin Kamstra}
+                \cvItem{Composition, Ear Training: Brian Krinke}
+            \end{multicols}
         \cvItemListEnd
     \section{CHORAL HIGHLIGHTS}
        \cvItemListStart
